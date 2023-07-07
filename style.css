@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Lobster+Two:ital,wght@0,700;1,400&family=Oswald:wght@200&family=Passion+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #fffa9a, #a5eaff);
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(29, 27, 39);
+}
+
+.wap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400%;
+    min-height: auto;
+    border-radius: 16px;
+    padding: 35px;
+    max-width: 600px;
+    background: #1dbdfd;
+    box-shadow: 10px 5px 10px rgba(255, 21, 5, 0.1);
+}
+
+.wap .input-box h3 {
+    border: 1px;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wap .icon {
+    font-size: 20px;
+    color: #13181a;
+    margin-top: 20px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.wap .input-box input {
+    font-size: medium;
+    padding: 3px;
+    max-width: 150px;
+    height: 50px;
+    background-color: rgb(252, 233, 247);
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.input-box input::-webkit-inner-spin-button,
+.input-box input::-webkit-outer-spin-button {
+    display: none;
+}
